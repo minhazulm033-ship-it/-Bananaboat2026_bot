@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="//libtl.com/sdk.js" data-zone="9804827" data-sdk="show_9804827"></script>
+    <script src='//libtl.com/sdk.js' data-zone='10784664' data-sdk='show_10784664'></script>
     <title>Telegram Bot UI</title>
     <style>
         * {
@@ -577,7 +577,7 @@
                         <div class="task-icon">📺</div>
                         <div class="task-details">
                             <div class="task-title">Watch a video ad</div>
-                            <div class="task-reward">Reward: $0.50</div>
+                            <div class="task-reward">Reward: $0.0010</div>
                         </div>
                         <button class="task-action" id="watchAdBtn">Start</button>
                     </div>
@@ -585,7 +585,7 @@
                         <div class="task-icon">🛒</div>
                         <div class="task-details">
                             <div class="task-title">Complete a survey</div>
-                            <div class="task-reward">Reward: $1.50</div>
+                            <div class="task-reward">Reward: $5</div>
                         </div>
                         <button class="task-action">Start</button>
                     </div>
@@ -593,7 +593,7 @@
                         <div class="task-icon">🎮</div>
                         <div class="task-details">
                             <div class="task-title">Play a mini-game</div>
-                            <div class="task-reward">Reward: $0.75</div>
+                            <div class="task-reward">Reward: $0.0050</div>
                         </div>
                         <button class="task-action">Start</button>
                     </div>
@@ -628,18 +628,18 @@
                     <div class="withdraw-options">
                         <div class="withdraw-option active" data-method="paypal">
                             <div class="withdraw-option-icon">💳</div>
-                            <div class="withdraw-option-name">PayPal</div>
-                            <div class="withdraw-option-fee">Fee: 2%</div>
+                            <div class="withdraw-option-name">BKASH</div>
+                            <div class="withdraw-option-fee">Fee: 6%</div>
                         </div>
                         <div class="withdraw-option" data-method="crypto">
                             <div class="withdraw-option-icon">₿</div>
-                            <div class="withdraw-option-name">Crypto</div>
-                            <div class="withdraw-option-fee">Fee: 1%</div>
+                            <div class="withdraw-option-name">Binance</div>
+                            <div class="withdraw-option-fee">Fee: 2%</div>
                         </div>
                         <div class="withdraw-option" data-method="bank">
                             <div class="withdraw-option-icon">🏦</div>
-                            <div class="withdraw-option-name">Bank Transfer</div>
-                            <div class="withdraw-option-fee">Fee: 3%</div>
+                            <div class="withdraw-option-name">Nagad Transfer</div>
+                            <div class="withdraw-option-fee">Fee: 5%</div>
                         </div>
                         <div class="withdraw-option" data-method="giftcard">
                             <div class="withdraw-option-icon">🎁</div>
@@ -973,8 +973,8 @@
             adCloseBtn.style.display = 'none';
             
             // Use Monetag ad service
-            if (window.show_9804827) {
-                window.show_9804827().then(() => {
+            if (window.show_10784664) {
+                window.show_10784664().then(() => {
                     // Ad completed successfully
                     adCloseBtn.style.display = 'block';
                     showToast('Ad completed! Click close to claim your reward.');
